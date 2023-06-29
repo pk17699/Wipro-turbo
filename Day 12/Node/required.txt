@@ -1,0 +1,6 @@
+create empty folder node
+open folder in vs code
+cmd npm init
+"start": "node index.js"
+npm install nodemon
+npm i http-server

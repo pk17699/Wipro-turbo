@@ -1,0 +1,28 @@
+1.Gitlab basics(push, clone, fork, etc)
+2.npm live-server
+3.basic exercise 1
+4.basic exercise 2
+5.basic exercise 3
+6.basic exercise 4
+7.Responsive web design
+8.Calculator using javascript, Html, css
+9.Javascript Basics
+10.String and array
+11.Javascript fetch api
+12.Javascript movie cruiser
+13.Javascript Dom manipulation
+14.Node basics
+15.Javascript testing
+16.Typescript
+17.React cdn(HTML as react)
+18.React first app
+19.React state, props
+20.React bootstrap
+21.React material UI
+22.React event handling
+23.React forms
+24.React axios
+25.React routing
+26.React Typescript
+
+movie cruiser and javascript basic need to updated on github

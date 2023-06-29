@@ -1,0 +1,4 @@
+1) create one folder and files in it, and push folder to gitlab, make some
+changes and then update on gitlab.
+add ssh key also on gitlab
+2)clone previous project and then make file in it, push on gitlab

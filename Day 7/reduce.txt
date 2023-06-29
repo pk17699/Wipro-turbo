@@ -1,0 +1,12 @@
+const numbers = [1, -1, 2, 3]
+
+/*general approach
+let sum = 0;
+for(let n of numbers)
+    sum += n;*/
+
+// using reduce
+const sum = numbers.reduce((accumulator, currentValue)=>{
+    return accumulator + currentValue;
+})
+console.log(sum);

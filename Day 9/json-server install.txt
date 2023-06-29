@@ -1,0 +1,9 @@
+npm i json-server --g or npm install -g json-server
+json-server --v
+json-server db.json
+postman
+fetch
+promise
+
+for uninstalling->
+npm uninstall node_module_name

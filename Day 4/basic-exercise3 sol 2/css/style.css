@@ -1,0 +1,143 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px;
+}
+header.myHeader{
+    background:linear-gradient(to right,darkred,rgb(208, 73, 73) );
+    height: 20vh;
+}
+header.myHeader img{
+    height: 19vh;
+    width: 15vw;    /* padding: 5px; */
+}
+header.myHeader section.login{
+    color: white;
+    float: right;
+    padding: 5px;
+    text-align: right;
+}
+header.myHeader::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+header.myHeader section.login p a{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header.myHeader section.login p{
+    font-size: 18px;
+}
+nav.myNav{
+    background:linear-gradient(to right,rgb(197, 0, 0),darkred );
+    
+}
+nav.myNav ul{
+    margin: 0;
+}
+nav.myNav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav.myNav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav.myNav ul li a:hover{
+    color: green;
+}
+
+main.main-container section.specialities{
+    float: left;
+    width: 80%;
+}
+
+main.main-container section.menu{
+    float: right;
+    width: 20%;
+}
+/* main.main-container section.menu h1{
+    margin: 5px;
+    color: darkred;
+    font-style: italic;
+} */
+main.main-container::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+div.img-card{text-align: center;width: 300px;}
+div.img-container{
+    height: 170px;
+    text-align: center;
+    width: 300px;    
+    
+}
+div.img-container{
+    border: 5px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px gray;
+}
+div.img-card div.img-container img{
+    
+    height: 160px;
+    margin: 1px;
+    width: 290px;
+}
+div.img-card div.img-container imgb{order: 5px solid white;}
+div.img-card p{
+    color: darkred;
+    font-size: 18px;
+}
+
+main.main-container section.specialities .speciality-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+section.menu ul{
+    list-style: none;
+    padding: 0;
+}
+section.menu ul li a{
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+    margin: 3px;
+    text-decoration: none;
+    width: 90%;
+}
+section.menu ul li a{padding: 10px;}
+section.menu ul li a:hover{
+    background-color: lightgrey;
+    color: green;
+}
+section.intro{
+    margin: 5px;
+}
+.redheading{
+    color: darkred;
+    font-style: italic;
+}
+
+section.intro p{
+    color: gray;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+footer.myFooter{
+    background-color: darkred;
+    color: white;
+    font-size: 17px;
+    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+}
+footer.myFooter p{padding: 15px;}

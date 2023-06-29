@@ -1,0 +1,7 @@
+1). to insatll live server
+npm install -g live server
+go to folder of project and run cmd, then type...
+live-server
+now you can focus on creating web pages, you dont need to reload anything
+2) to uninstall, type in cmd..
+npm uninsatll -g live server

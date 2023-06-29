@@ -1,0 +1,3 @@
+first run json-server db.json -p 3000
+then you need to run live-server because json works on live server
+use live-server...it will automatically launch browser and open index.html

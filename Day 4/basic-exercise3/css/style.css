@@ -1,0 +1,131 @@
+*{ margin: 0; 
+}
+h1{
+    color: darkred;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px;
+}
+.banner{
+    background:linear-gradient(to right,darkred,rgb(183, 25, 25) );
+    height: 17vh;
+}
+header.banner img{
+    height: 15vh;
+    padding-top: 0.5rem;
+    width: 12vw;
+}
+header.banner div.info{
+    color: white;
+    float: right;
+    padding: 5px;
+    text-align: right;
+}
+header.banner div.info p a{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header.banner div.info p{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.nav{
+    background:linear-gradient(to right,rgb(111, 5, 5),rgb(231, 31, 31) );
+}
+.nav ul{
+    height: 3vh;
+    padding: 0.8em;
+}
+.nav ul li{
+    display: inline;
+    padding: 0.4em;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: green;
+}
+main section.food-item-container{
+    float: left;
+    width: 80%;
+}
+
+main section.quick-menu-section{
+    float: right;
+    width: 20%;
+}
+.food-item-section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.food-item-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.food-item{
+    padding: 5px;
+    text-align: center;
+    width: 17vw;
+}
+.food-item img{
+    border: 6px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px gray;
+    height: 18vh;
+    padding: 0;
+    width: 16vw;
+}
+.food-item img:hover{
+    cursor: pointer;
+}
+.food-item p{
+    color: darkred;
+    font-size: 13pt;
+}
+.quick-menu-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 6rem;
+    top: 16rem;
+}
+.quick-menu-section ul{
+    list-style: none;
+    padding: 0;
+}
+.quick-menu-section ul li a{
+    background-color: darkred;
+    color: white;
+    display: block;
+    font-size: 15px;
+    margin: 3px;
+    padding: 10px;
+    text-decoration: none;
+    width: 80%;
+}
+.quick-menu-section ul li a:hover{
+    background-color: grey;
+    color: green;
+}
+.introduction p{
+    color: grey;
+}
+footer{
+    background-color: darkred;
+    color: white;
+    height: 5vh;
+    margin-top: 0.5em;
+}
+footer p{
+    padding-left: 5em;
+    padding-top: 0.5em;
+}
